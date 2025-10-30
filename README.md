@@ -25,3 +25,11 @@ När ett nytt inlägg skapas skall en användare få fylla i titel och innehåll
 skall in på genom att välja blog från en rullgardingsmeny (dropdown). Denna information kommer
 att skapa ett nytt objekt (ett post-objekt) när användaren sparar. Detta objekt skall sedan läggas i en
 egen lista för inlägg (posts) som också den skall lagras i localStorage.
+
+## För att återskapa
+
+- Klona [repon](https://github.com/mikael-johnsson/MI-CMS)
+- *i terminalen* cd MI-CMS
+- *i terminalen* npm instal
+- *i terminalen* npm run dev
+- Nu körs en dev server med projektet
