@@ -3,6 +3,8 @@
 En övning som handlar om localStorage. Uppgiften är att skapa sida där 
 användaren kan skapa en blogg och blogg-poster som sparas i webbläsarens localStorage.
 
+[Live site](https://mi-cms.netlify.app/)
+
 ## Kriterier
 
 Skapa ett CMS genom att implementera ett system som hanterar bloggar.
@@ -28,8 +30,8 @@ egen lista för inlägg (posts) som också den skall lagras i localStorage.
 
 ## För att återskapa
 
-- Klona [repon](https://github.com/mikael-johnsson/MI-CMS)
+- Klona den här [repon](https://github.com/mikael-johnsson/MI-CMS)
 - *i terminalen* cd MI-CMS
-- *i terminalen* npm instal
+- *i terminalen* npm install
 - *i terminalen* npm run dev
 - Nu körs en dev server med projektet
