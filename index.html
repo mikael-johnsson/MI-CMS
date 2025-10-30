@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>cms-project</title>
+  </head>
+  <body>
+    <div id="app">
+      <form id="blogForm">
+        <h2>Create a blog</h2>
+        <label for="blogName">Blog name:</label>
+        <input id="blogName" type="text">
+
+        <label for="blogAuthor">Author:</label>
+        <input id="blogAuthor" type="text">
+        <button id="blogFormButton">Create blog</button>
+      </form>
+
+      <form id="postForm">
+        <h2>Create a post</h2>
+        <label for="postTitle">Title:</label>
+        <input id="postTitle" type="text">
+
+        <label for="postContent">Post content:</label>
+        <textarea id="postContent" rows="10" cols="50"></textarea>
+
+        <label for="blogDropdown">Choose blog:</label>
+        <select id="blogDropdown">
+        </select>
+        <button id="postFormButton">Create post</button>
+      </form>
+    </div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
